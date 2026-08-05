@@ -83,7 +83,7 @@ HomeLab/
 │   ├── services/
 |   ├── projects/
 |       ├── hlcc/
-|       ├── comic-pipeline/
+|       └── comic-pipeline/
 │   ├── guides/
 │   ├── diagrams/
 │   └── screenshots/
