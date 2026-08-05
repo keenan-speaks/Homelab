@@ -4,8 +4,6 @@
 
 HomeLab is a self-hosted infrastructure project built with Debian, Docker, and open-source software. It serves as both a production homelab and a long-term learning platform for Linux system administration, networking, automation, AI, and modern infrastructure engineering.
 
-Unlike many homelab repositories that focus only on deployment, HomeLab emphasizes reproducibility, documentation, security, and maintainability. Every major architectural decision is documented, every service has a defined purpose, and the repository is organized to serve as both a reference manual and a portfolio project.
-
 ---
 
 ## Project Goals
