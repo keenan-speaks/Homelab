@@ -1,6 +1,6 @@
 # HomeLab
 
-> **Enterprise-Inspired Self-Hosted Infrastructure**
+> **Self-Hosted Infrastructure**
 
 HomeLab is a self-hosted infrastructure project built with Debian, Docker, and open-source software. It serves as both a production homelab and a long-term learning platform for Linux system administration, networking, automation, AI, and modern infrastructure engineering.
 
@@ -42,6 +42,14 @@ The HomeLab environment is organized into several functional areas.
 
 Core services responsible for networking, routing, monitoring, and system management.
 
+- Docker-based service management
+- Reverse proxy with Caddy
+- Internal DNS with AdGuard Home
+- Remote access using Tailscale
+- Automated backup strategy
+- Monitoring and uptime tracking
+- **HomeLab Control Center (HLCC)**
+
 ### Media Services
 
 Applications for organizing and streaming media collections.
@@ -49,6 +57,12 @@ Applications for organizing and streaming media collections.
 ### Automation & AI
 
 Workflow automation and locally hosted AI services.
+
+## HomeLab Control Center (HLCC)
+
+The HomeLab Control Center (HLCC) is a custom terminal-based administration utility developed specifically for the HomeLab project.
+
+It provides a centralized interface for common administrative tasks including system monitoring, backups, vault management, maintenance operations, and service management. HLCC was created to simplify routine administration while serving as a practical software engineering project built alongside the infrastructure itself.
 
 ### Download Stack
 
@@ -67,6 +81,9 @@ HomeLab/
 ├── docs/
 │   ├── architecture/
 │   ├── services/
+|   ├── projects/
+|       ├── hlcc/
+|       ├── comic-pipeline/
 │   ├── guides/
 │   ├── diagrams/
 │   └── screenshots/
@@ -111,23 +128,24 @@ The objective is not simply to host services, but to understand how they work to
 
 ### Completed
 
-* Docker-based infrastructure
-* Reverse proxy
-* Internal DNS
-* Secure remote access
-* Monitoring
-* Media services
-* Automated download stack
+- Docker-based infrastructure
+- Reverse proxy
+- Internal DNS
+- Secure remote access
+- Monitoring
+- Media services
+- Automated download stack
+- HomeLab Control Center (HLCC)
 
 ### In Progress
 
-* AI platform
-* Infrastructure documentation
-* System architecture diagrams
-* Professional screenshots
-* Maintenance guides
-* HomeLab Control Center documentation
-* Comic Pipeline (complete redesign)
+- AI platform
+- Infrastructure documentation
+- System architecture diagrams
+- Professional screenshots
+- Maintenance guides
+- HomeLab Control Center documentation
+- Comic Pipeline (complete redesign)
 
 ### Planned
 
