@@ -126,13 +126,15 @@ The objective is not simply to host services, but to understand how they work to
 * System architecture diagrams
 * Professional screenshots
 * Maintenance guides
+* HomeLab Control Center documentation
+* Comic Pipeline (complete redesign)
 
 ### Planned
 
-* HomeLab Control Center documentation
-* Original Comic Pipeline project
 * Additional automation workflows
 * Expanded AI capabilities
+* Original infrastructure utilities
+
 
 ---
 
